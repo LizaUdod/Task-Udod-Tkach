@@ -11,25 +11,25 @@
 
 using namespace std;
 
-class IPoly {             //класс МНОГОЧЛЕН
+class IPoly {             //РєР»Р°СЃСЃ РњРќРћР“РћР§Р›Р•Рќ
 public:
 	ui n;
 	vector <ui> p;
 
-	IPoly();				//конструктор
-	IPoly(vector <ui>);		//конструктор
+	IPoly();				//РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
+	IPoly(vector <ui>);		//РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 
-	IPoly add(IPoly);			//метод +
-	IPoly multiply(IPoly);		//метод *
-	IPoly divide(IPoly);		//метод /
-	IPoly mod(IPoly);			//остача  от деления
-	IPoly derivate();			//производная
-	IPoly integrate();			//интеграл неопределенный
+	IPoly add(IPoly);			//РјРµС‚РѕРґ +
+	IPoly multiply(IPoly);		//РјРµС‚РѕРґ *
+	IPoly divide(IPoly);		//РјРµС‚РѕРґ /
+	IPoly mod(IPoly);			//РѕСЃС‚Р°С‡Р°  РѕС‚ РґРµР»РµРЅРёСЏ
+	IPoly derivate();			//РїСЂРѕРёР·РІРѕРґРЅР°СЏ
+	IPoly integrate();			//РёРЅС‚РµРіСЂР°Р» РЅРµРѕРїСЂРµРґРµР»РµРЅРЅС‹Р№
 
-	void print(ostream &);		//вывод
-	ui integrate(ui, ui);		//определенный интеграл
-	ui value(ui);				//значение в точке
-	IPoly operator= (IPoly);	//оператор для присваивания 
+	void print(ostream &);		//РІС‹РІРѕРґ
+	ui integrate(ui, ui);		//РѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ РёРЅС‚РµРіСЂР°Р»
+	ui value(ui);				//Р·РЅР°С‡РµРЅРёРµ РІ С‚РѕС‡РєРµ
+	IPoly operator= (IPoly);	//РѕРїРµСЂР°С‚РѕСЂ РґР»СЏ РїСЂРёСЃРІР°РёРІР°РЅРёСЏ 
 	
 };
 

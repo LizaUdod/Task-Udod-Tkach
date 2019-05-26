@@ -1,2 +1,2 @@
 # Task-Udod-Tkach
-cpp project for univer
+project for cpp course 2
